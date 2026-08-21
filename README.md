@@ -123,25 +123,31 @@ Across both approaches, **Random Forest (Version A — original data with class 
                       │
                       ▼
               Normalization
+              
              (MinMaxScaler)
                       │
              ┌────────┴────────┐
              ▼                 ▼
+             
         Version A          Version B
       Class Weights          SMOTE
              │                 │
              ▼                 ▼
+             
        Multiple Models   Multiple Models
              │                 │
              └────────┬────────┘
                       ▼
+                      
              Hyperparameter
                   Tuning
                       │
                       ▼
+                      
                Model Evaluation
                       │
                       ▼
+                      
              🏆 Random Forest
               Version A
 
