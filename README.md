@@ -111,18 +111,23 @@ Across both approaches, **Random Forest (Version A — original data with class 
                       │
         ┌─────────────┴─────────────┐
         ▼                           ▼
+        
   Distribution &              Correlation &
   Failure Analysis            Outlier Analysis
+  
         │                           │
         └─────────────┬─────────────┘
                       ▼
+                      
              Feature Selection
                       │
                       ▼
+                      
             Feature Engineering
                       │
                       ▼
-              Normalization
+                      
+                Normalization
               
              (MinMaxScaler)
                       │
