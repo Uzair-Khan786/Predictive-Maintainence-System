@@ -112,8 +112,7 @@ Across both approaches, **Random Forest (Version A — original data with class 
         ┌─────────────┴─────────────┐
         ▼                           ▼
         
-  Distribution &              Correlation &
-  Failure Analysis            Outlier Analysis
+Distribution Analysis    Correlation & Outlier Analysis
   
         │                           │
         └─────────────┬─────────────┘
