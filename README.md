@@ -109,26 +109,19 @@ Across both approaches, **Random Forest (Version A — original data with class 
               Exploratory Data
                  Analysis
                       │
-        ┌─────────────┴─────────────┐
-        ▼                           ▼
-        
-Distribution Analysis    Correlation & Outlier Analysis
-  
-        │                           │
-        └─────────────┬─────────────┘
                       ▼
                       
-             Feature Selection
+               Feature Selection
                       │
                       ▼
                       
-            Feature Engineering
+              Feature Engineering
                       │
                       ▼
                       
                 Normalization
               
-             (MinMaxScaler)
+               (MinMaxScaler)
                       │
              ┌────────┴────────┐
              ▼                 ▼
