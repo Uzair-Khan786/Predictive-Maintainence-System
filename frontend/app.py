@@ -33,7 +33,7 @@ if st.button("Predict Machine Status") :
             else :
                 st.error(f"Prediction : 🔴{prediction}")
 
-            st.info(f"📊Failure Probability : {result['Machine_Failure_Probability']}%")
+            st.progress(value=float(result['Machine_Failure_Probability'])/100,text=f"📊Failure Probability : {float(result['Machine_Failure_Probability']):.1f}%")
 
             if prediction == 'Failure' :
                 reasons = result['Top_Reasons']
