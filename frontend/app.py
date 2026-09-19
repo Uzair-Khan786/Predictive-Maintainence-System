@@ -35,11 +35,15 @@ if st.button("Predict Machine Status") :
 
             st.progress(value=float(result['Machine_Failure_Probability'])/100,text=f"📊Failure Probability : {float(result['Machine_Failure_Probability']):.1f}%")
 
+            st.divider()
+
             if prediction == 'Failure' :
                 reasons = result['Top_Reasons']
                 formatted_list = "\n".join([f"{val}. {reason}" for val,reason in enumerate(reasons,1)])
                 st.warning(f"Top Reasons : \n{formatted_list}")
-            
+
+            st.divider()
+
             recommendations = result['Recommendation_Actions']
             format_list = "\n".join([f"{i}. {action}" for i,action in enumerate(recommendations,1)])
             st.info(f"Recommendation Actions : \n{format_list}")
