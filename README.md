@@ -33,6 +33,7 @@ After EDA, heavy feature selection was performed. Irrelevant features and highly
 Three additional domain-inspired features were engineered:
 
 ## **Feature	Description**
+
 🌡️ **Temp_change** : Difference between process temperature and air temperature
 
 ⚙️ **Overstrain Index** :	Product of tool wear and torque
@@ -96,7 +97,9 @@ Across both approaches, **Random Forest (Version A — original data with class 
 
 **ROC-AUC	~98%**
 
-## 💡 **Key takeaway**: The class-weighted Random Forest using the original dataset performed better overall than the SMOTE-based approach, while maintaining strong recall for detecting actual machine failures.
+## 💡Key takeaway: 
+
+**The class-weighted Random Forest using the original dataset performed better overall than the SMOTE-based approach, while maintaining strong recall for detecting actual machine failures.**
 
 ## 🔄 **End-to-End Pipeline**
 
@@ -178,7 +181,7 @@ Across both approaches, **Random Forest (Version A — original data with class 
 
 ## **🗂️ Dataset**
 
-**Source** : **AI4I 2020 Predictive Maintenance Dataset — Kaggle*
+**Source** : **AI4I 2020 Predictive Maintenance Dataset — Kaggle**
 
 The dataset contains machine operational and sensor measurements used to predict machine failure.
 
